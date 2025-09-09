@@ -125,3 +125,4 @@ elif user_input == "right":
     print("Fall into a hole.Game Over")
 else:
     print("invaid input,Game Over...!")
+print("Hello")
