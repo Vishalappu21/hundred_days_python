@@ -38,6 +38,8 @@ if Number % 2 == 0:
     print("The Number is an Even Number")
 else:
     print("The Number is a Odd Number")
+from bisect import bisect_left
+from random import choice
 
 # BMI Calculator
 weight = 85
@@ -73,7 +75,7 @@ if pepperoni == "y":
         bill += 3
 if extra_chesse == "y":
     bill += 1
-print(f"your total bill is {bill}
+print(f"your total bill is {bill}")
 
 # Driving Licence Test:
 age = 15
@@ -88,7 +90,7 @@ if ticket_age < 12 or ticket_age > 60:
     print("Discount Available")
 else:
     print("Discount Not Available")
-
+#
 a = 5
 b = 7
 
