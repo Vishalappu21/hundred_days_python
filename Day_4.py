@@ -62,6 +62,3 @@ elif user_choice == 'paper' and computer_c_1 == 'rock':
     print("User Win the Game...")
 else:
     print("Computer win the Game..")
-
-print("hello")
-print("Vishal")
