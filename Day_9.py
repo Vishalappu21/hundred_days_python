@@ -92,5 +92,6 @@ while True:
 highest_bidder = max(bid_dict,key=bid_dict.get)
 highest_bid = bid_dict[highest_bidder]
 print(f"The winner is {highest_bidder} and the amount is {highest_bid} ")
+print("Vishal")
 
 
