@@ -70,3 +70,32 @@ school = student("Vishal",147,45,50,60)
 print(school.disply())
 print(school.average())
 print(school.grade())
+
+class car:
+    def __init__(self,brand,model_name):
+        self.model_name = model_name
+        self.brand = brand
+    def show(self):
+        return f"the brand name is {self.brand} and the model is {self.model_name}"
+cars = car("volkswagen","polo")
+print(cars.show())
+from prettytable import PrettyTable
+class Employee:
+    def __init__(self,name,emp_id,salary,department):
+        self.name = name
+        self.emp_id = emp_id
+        self.salary = salary
+        self.department = department
+    def bonus(self):
+        bns = self.salary*0.10
+        return bns
+emp = Employee("Dinesh",456789,200000,"Lawyer")
+i = emp
+# print(emp.salary)
+# print(emp.bonus())
+table = PrettyTable()
+table.field_names = ["Name","Emp_ID","Salary","Department","Bonus"]
+# for i in [emp]:
+table.add_row([i.name,i.emp_id,i.salary,i.department,i.bonus()])
+
+print(table)
